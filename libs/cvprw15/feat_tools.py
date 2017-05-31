@@ -43,7 +43,9 @@ def pycaffe_batch_feat(list_im, net, feat_len, ilsvrc_2012_mean_pn, layer_n):
     batch_size = 10  # RFM: init_val=10
     dim = feat_len
     for im_pn in list_im:
-        print im_pn
+        #print im_pn
+        pass
+
     # Adjust the batch size and dim to match with models/bvlc_reference_caffenet/deploy.prototxt
     if (len(list_im) % batch_size):
         print ('Assuming batches of {} images rest will be filled with zeros').format(batch_size)

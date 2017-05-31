@@ -11,7 +11,6 @@ class DeepFeaturesExtractor:
 
     def __init__(self, use_gpu, feat_len, model_prototxt, model_file,
                  ilsvrc_2012_mean_pn):
-        print ('DeepFeaturesExtractor: init')
         self.use_gpu = use_gpu
         self.feat_len = feat_len
         self.model_prototxt = model_prototxt
@@ -20,9 +19,9 @@ class DeepFeaturesExtractor:
         self.caffe_net = pycaffe_init_feat(use_gpu, model_prototxt, model_file)
 
     def extract(self, list_im, layer_n):
-        print '-----------------------------------'
-        print 'layer7 feature extraction of qry_im'
-        print '-----------------------------------'
+        print '------------------------------------------------'
+        print '[2] Extraction of deep features at layer {}'.format(layer_n)
+        print '------------------------------------------------'
         df_l7 = None
         if self.caffe_net != None:
             df_l7 = pycaffe_batch_feat(list_im, self.caffe_net,

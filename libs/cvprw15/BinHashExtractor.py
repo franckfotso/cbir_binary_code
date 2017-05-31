@@ -13,7 +13,6 @@ class BinHashExtractor:
 
     def __init__(self, use_gpu, feat_len, model_prototxt, model_file,
                  ilsvrc_2012_mean_pn):
-        print ('BinHashExtractor: init')
         self.use_gpu = use_gpu
         self.feat_len = feat_len
         self.model_prototxt = model_prototxt
@@ -23,9 +22,9 @@ class BinHashExtractor:
 
 
     def extract(self, list_im, layer_n):
-        print '-----------------------------------------'
-        print '48-bits binary codes extraction of qry_im'
-        print '-----------------------------------------'
+        print '--------------------------------------'
+        print ('[1] {}-bits binary codes extraction'.format(self.feat_len))
+        print '---------------------------------------'
         binary_codes = None
         if self.caffe_net != None:
             scores = pycaffe_batch_feat(list_im, self.caffe_net,
