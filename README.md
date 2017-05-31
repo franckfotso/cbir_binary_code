@@ -6,25 +6,25 @@ Created by Romyny
 
 ## Introduction:
 
-CBIR, which stands for Content Based Image Retrieval, relies on extraction of features from images and then the comparing the images for similarity the images for similarity based on the extracted feature vectors and distance. However, CBIR system also involves methods to:
+CBIR, which stands for Content Based Image Retrieval, relies on extraction of features from images and then comparing the images for similarity based on the extracted feature vectors and distance metric. However, the CBIR system also involves methods to:
   * Efficiently store features extracted of images
-  * Scale the time request regarding the increasing dataset of images
+  * Scale the time of request for a dataset with a high size
   * Combine techniques from computer vision, information retrieval, and powerful data structure to build real-world images search engines that can be deployed online
 
-Since there was lot of research related to CBIR using basics techniques of computer vision, we proprosed a repository which focus on how deep can we involved Deep Learning techniques in CBIR. So, our work is about the use of **binary hash code** (proposed by [**Kevin Lin - cvprw15**](https://github.com/kevinlin311tw/caffe-cvprw15)) for CBIR tasks.
+Since there was many researchs related to CBIR using basics techniques of computer vision, we proprosed a repository which focus on how deep can we involved Deep Learning techniques in CBIR. So, our work is about the use of **binary hash code** (proposed by [**Kevin Lin - cvprw15**](https://github.com/kevinlin311tw/caffe-cvprw15)) for CBIR tasks.
 
 ## Purposes:
 
 Our main goals are:
-  * Propose a tool for the extraction of binary hash code & deep features
-  * Fast indexing of both binary hash code & deepfeatures
-  * Fast computing of similarity (distance) based on features & binary code extrated
-  * Easy request of similar images (in database)
+  * Propose a tool for the extraction of binary hash codes & deep features
+  * Fast indexing of both binary hash codes & deepfeatures
+  * Fast computing of similarity (distances) based on features & binary codes extrated
+  * Easy request for similar images (in database)
   * Sorted visualization of results
 
 ## Datasets:
 
-We have first tested our tool on CIFAR-10, then we have built our own datasets (foods & electronical products). As a result, we were able to see how our tool behave on the real-world issues. Please have a look on reference section to download our datasets.
+We have first tested our tool on CIFAR-10, then we have built our own datasets (foods & electronical products). As a result, we were able to see our tool' behaviour on the real-world issues. Please have a look on **INSTALLATION** section to download our datasets.
 
 ## Hardwares/Softwares:
     OS: Ubuntu 16.04 64 bit
@@ -41,7 +41,7 @@ We have first tested our tool on CIFAR-10, then we have built our own datasets (
 
 ## Installation:
 
-To install this tool, please follow this step-by-step:
+To install this tool, please follow the steps below:
 
 1. [Install OpenCV](http://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/)
 
@@ -67,20 +67,23 @@ To install this tool, please follow this step-by-step:
     ```
   
 4. Install python's packages required:
+
+  ```
   for req in $(cat requirements.txt); do pip install $req; done
+  ```
   
 Get the data and models required:
-1. download data and uncompress in '/opt/cbir_binary_code/data'
-  * [data_foods25](https://drive.google.com/open?id=0B_Rjj_NgCayPRExDYkNKTWF1bjQ)
-  * [data_product20](https://drive.google.com/open?id=0B_Rjj_NgCayPcEVqTW9wTE1tRjg)
+1. Download the data and uncompress in '/opt/cbir_binary_code/data'
+  * data_foods25: [Google Drive](https://drive.google.com/open?id=0B_Rjj_NgCayPRExDYkNKTWF1bjQ)
+  * data_product20: [Google Drive](https://drive.google.com/open?id=0B_Rjj_NgCayPcEVqTW9wTE1tRjg)
   
-2. download models and uncompress in '/opt/cbir_binary_code/examples'
-  * [example_foods25](https://drive.google.com/open?id=0B_Rjj_NgCayPcC1kNXlRWmRWY2M)
-  * [example_product20](https://drive.google.com/open?id=0B_Rjj_NgCayPYjRBRUtPcG5MeXM)
+2. Download the models and uncompress in '/opt/cbir_binary_code/examples'
+  * example_foods25: [Google Drive](https://drive.google.com/open?id=0B_Rjj_NgCayPcC1kNXlRWmRWY2M)
+  * example_product20: [Google Drive](https://drive.google.com/open?id=0B_Rjj_NgCayPYjRBRUtPcG5MeXM)
 
 ## Experiments:
 
-1. Feature extraction & indexing on a sample of dataset (products20) with the following commands:
+1. Feature extraction & indexing of a sample dataset (products20) with the following commands:
     
     ```
     $ cd /opt/cbir_binary_code
@@ -92,8 +95,8 @@ Get the data and models required:
     /opt/cbir_binary_code/data/foods25/foods25_48_deepDB.hdf5 foods25
     ```
   
-  The output of this command is stored as '/opt/cbir_binary_code/data/foods25/foods25_48_deepDB.hdf5'.
-  The log files are stored in '/opt/cbir_binary_code/logs'.
+  The output of this command is stored as **'/opt/cbir_binary_code/data/foods25/foods25_48_deepDB.hdf5'**.
+  The log files are stored in **'/opt/cbir_binary_code/logs'**.
   
 2. Search for similar images:
 
@@ -108,7 +111,7 @@ Get the data and models required:
     --query /opt/cbir_binary_code/data/products20/imgs/moulinex/07072053.jpg
     ```
   
-  The output of this command is stored in '/opt/cbir_binary_code/output/results'
+  The output of this command is stored in **'/opt/cbir_binary_code/output/results/'**
 
 ## Our results
 
