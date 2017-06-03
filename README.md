@@ -11,7 +11,7 @@ CBIR, which stands for Content Based Image Retrieval, relies on extraction of fe
   * Scale the time of request for a dataset with a high size
   * Combine techniques from computer vision, information retrieval, and powerful data structure to build real-world images search engines that can be deployed online
 
-Since there was many researchs related to CBIR using basics techniques of computer vision, we proprosed a repository which focus on how deep can we involved Deep Learning techniques in CBIR. So, our work is about the use of **binary hash code** (proposed by [**Kevin Lin - cvprw15**](https://github.com/kevinlin311tw/caffe-cvprw15)) for CBIR tasks.
+Since there were many researchs related to CBIR using basics techniques of computer vision, we proprosed a repository which focus on how deep can we involved Deep Learning techniques in CBIR. So, our work is about the use of **binary hash code** (proposed by [**Kevin Lin - cvprw15**](https://github.com/kevinlin311tw/caffe-cvprw15)) for CBIR tasks.
 
 ## Purposes:
 
