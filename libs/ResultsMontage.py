@@ -1,8 +1,8 @@
 # Project: cbir_binary_code
 # File: ResultsMontage
-# Written by: romyny
+# Written by: Romuald FOTSO
 # Licensed: MIT License
-# On: 29/05/17
+# Copyright (c) 2017
 
 import numpy as np
 import cv2

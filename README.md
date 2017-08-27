@@ -2,7 +2,7 @@
 
 Content Based Image Retrieval with Binary Hash Code
 
-Created by Romyny
+Created by Romuald FOTSO
 
 ## Introduction:
 
@@ -127,4 +127,4 @@ Get the data and models required:
 
 ## Contact
 
-Please feel free to leave suggestions or comments to Romyny (romyny9096@gmail.com)
+Please feel free to leave suggestions or comments to Romuald FOTSO (romyny9096@gmail.com)

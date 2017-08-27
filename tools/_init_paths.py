@@ -1,8 +1,9 @@
 # Project: cbir_binary_code
 # File: _init_paths
 # Written by: romyny
+# Written by: Romuald FOTSO
 # Licensed: MIT License
-# On: 30/05/17
+# Copyright (c) 2017
 
 """Set up paths for cbir_binary_code"""
 

@@ -2,9 +2,9 @@
 
 # Project: cbir_binary_code
 # File: index_bin48_feat
-# Written by: romyny
+# Written by: Romuald FOTSO
 # Licensed: MIT License
-# On: 29/05/17
+# Copyright (c) 2017
 # -------------------------------------
 # USAGE:
 # python tools/index_bin48_feat.py --use_gpu 1 \

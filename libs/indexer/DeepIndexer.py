@@ -1,8 +1,8 @@
 # Project: cbir_binary_code
 # File: DeepIndexer
-# Written by: romyny
+# Written by: Romuald FOTSO
 # Licensed: MIT License
-# On: 29/05/17
+# Copyright (c) 2017
 
 from BaseIndexer import BaseIndexer
 import numpy as np

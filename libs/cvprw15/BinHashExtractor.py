@@ -1,8 +1,8 @@
 # Project: cbir_binary_code
 # File: BinHashExtractor
-# Written by: romyny
+# Written by: Romuald FOTSO
 # Licensed: MIT License
-# On: 29/05/17
+# Copyright (c) 2017
 
 from feat_tools import pycaffe_batch_feat
 from feat_tools import pycaffe_init_feat

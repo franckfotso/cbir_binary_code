@@ -1,8 +1,8 @@
 # Project: cbir_binary_code
 # File: feat_tools
-# Written by: romyny
+# Written by: Romuald FOTSO
 # Licensed: MIT License
-# On: 29/05/17
+# Copyright (c) 2017
 
 import caffe
 import numpy as np
