@@ -124,11 +124,6 @@ Get the data and models required:
 3. Query on product_3:
 ![GitHub Logo](/demo/21787018.png)
 
-4. Query on food_1:
-![GitHub Logo](/demo/08114089.png)
-
-5. Query on food_2:
-![GitHub Logo](/demo/00152162.png)
 
 ## Contact
 
