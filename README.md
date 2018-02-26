@@ -2,7 +2,7 @@
 
 Content Based Image Retrieval with Binary Hash Code
 
-Created by Romuald FOTSO
+Created by Franck FOTSO
 
 ## Introduction:
 
@@ -49,7 +49,7 @@ To install this tool, please follow the steps below:
 
     ```
     $ cd /opt
-    $ sudo git clone https://github.com/romyny/cbir_binary_code.git
+    $ sudo git clone https://github.com/franckfotso/cbir_binary_code.git
     $ cd cbir_binary_code
     ```
   
@@ -127,4 +127,4 @@ Get the data and models required:
 
 ## Contact
 
-Please feel free to leave suggestions or comments to Romuald FOTSO (romyny9096@gmail.com)
+Please feel free to leave suggestions or comments to Franck FOTSO (romyny9096@gmail.com)
