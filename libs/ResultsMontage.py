@@ -1,7 +1,7 @@
 # Project: cbir_binary_code
 # File: ResultsMontage
 # From: pyimagesearch guru courses > cbir
-#    (https://gurus.pyimagesearch.com)
+#    (https://gurus.pyimagesearch.com) 
 # Licensed: MIT License
 # Copyright (c) 2017
 
