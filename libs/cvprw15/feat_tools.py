@@ -1,6 +1,6 @@
 # Project: cbir_binary_code
 # File: feat_tools
-# Written by: Romuald FOTSO
+# Written by: Franck FOTSO
 # Licensed: MIT License
 # Copyright (c) 2017
 
