@@ -1,6 +1,7 @@
 # Project: cbir_binary_code
 # File: BaseIndexer
-# Written by: Romuald FOTSO
+# From: pyimagesearch guru courses > cbir
+#    (https://gurus.pyimagesearch.com)
 # Licensed: MIT License
 # Copyright (c) 2017
 
